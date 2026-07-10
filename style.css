@@ -1,0 +1,114 @@
+ margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* พื้นหลัง */
+body{
+    background:#F8F3FF;
+    color:#444;
+}
+
+/* เมนูด้านบน */
+header{
+    background:#B388EB;
+    padding:18px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#FFE5FF;
+}
+
+/* กล่องเนื้อหา */
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+/* ส่วน Hero */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero img{
+    width:220px;
+    border-radius:50%;
+    border:6px solid #CDB4DB;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-size:48px;
+    color:#8E6AC8;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:22px;
+}
+
+/* ปุ่ม */
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:12px 30px;
+    background:#B388EB;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#9D6DE3;
+}
+
+/* Card */
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    margin:30px 0;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+/* รูป */
+
+img{
+    max-width:100%;
+}
+
+/* Footer */
+
+footer{
+    background:#B388EB;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:60px;
+}
