@@ -127,3 +127,31 @@ footer{
     margin:20px 0;
     border-radius:15px;
 }
+/* หน้าผลงานและรางวัล */
+#activities{
+    background:#9B59B6;
+    color:white;
+    padding:30px;
+    margin:30px auto;
+    width:90%;
+    max-width:1100px;
+    border-radius:20px;
+}
+
+.activity-item{
+    background:#F3E8FF;
+    color:#444;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.1);
+}
+
+.activity-item h3{
+    color:#8E6AC8;
+    margin-bottom:10px;
+}
+
+.activity-item p{
+    line-height:1.6;
+}
