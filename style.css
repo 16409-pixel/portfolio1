@@ -162,3 +162,30 @@ footer{
     border-radius:10px;
     border:3px solid #B388EB;
 }
+/* หน้าติดต่อ */
+#contact{
+    background:#9B59B6;
+    color:white;
+    padding:30px;
+    margin:30px auto;
+    width:90%;
+    max-width:1100px;
+    border-radius:20px;
+}
+
+.contact-item{
+    background:#F3E8FF;
+    color:#444;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
+}
+
+.contact-item h3{
+    color:#8E6AC8;
+    margin-bottom:10px;
+}
+
+.contact-item p{
+    font-size:18px;
+}
