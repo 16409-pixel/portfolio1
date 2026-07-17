@@ -92,4 +92,21 @@ footer{
     padding:20px;
     margin-top:60px;
 }
+/* ประวัติการศึกษา */
+#education{
+    background:#9B59B6;
+    color:white;
+    padding:30px;
+    margin:30px auto;
+    width:90%;
+    max-width:1100px;
+    border-radius:20px;
+}
 
+.education-item{
+    background:#CDB4DB;
+    color:#444;
+    padding:20px;
+    margin:20px 0;
+    border-radius:15px;
+}
